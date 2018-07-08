@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LoginRegister2</string>
+    <string name="nav_price">Price</string>
+    <string name="nav_history">BotHistory</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_historys">Bothistory</string>
+    <string name="nav_dashboards">BuySell</string>
+
+
+    <string name="text_buysell">BuySell</string>
+    <string name="text_bothistory">bothistory</string>
+    <string name="text_price">price</string>
+    <string name="title_settings">settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="SignUp" type="id" />
+    <item name="etUsername" type="id" />
+    <item name="etPassword" type="id" />
+    <item name="edt_name" type="id" />
+    <item name="btn_read" type="id" />
+    <item name="btn_write" type="id" />
+    <item name="Login" type="id" />
+    <item name="imageView" type="id" />
+    <item name="etEmail" type="id" />
+    <item name="etFirst_Name" type="id" />>
+    <item name="etLast_Name" type="id" />
+    <item name="bSignUp" type="id" />
+    <item name="text_settings" type="id" />
+    <item name="navigation" type="id">nav_navigations</item>
+    <item name="fragment_container" type="id" />
+    <item name="btnChoose" type="id" />
+    <item name="btnUpload" type="id" />
+    <item name="imgView" type="id" />
+    <item name="end_date" type="id" />
+    <item name="myDate" type="id" />
+    <item name="upload_b" type="id" />
+    <item name="file_name" type="id" />
+    <item name="DisplayImagesButton" type="id" />
+    <item name="ImageNameTextView" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="btn_save" type="id" />
+    <item name="btn_nextpage" type="id" />
+    <item name="etTakenN" type="id" />
+    <item name="uploadImage" type="id" />
+    <item name="btnBackImage" type="id" />
+    <item name="btnNextImage" type="id" />
+    <item name="btnUploadImage" type="id" />
+    <item name="imageName" type="id" />
+    <item name="button_choose_image" type="id" />
+    <item name="button_upload" type="id" />
+    <item name="text_view_show_uploads" type="id" />
+    <item name="edit_text_file_name" type="id" />
+    <item name="image_view" type="id" />
+    <item name="progress_bar" type="id" />
+    <item name="uploadimage" type="id" />
+    <item name="myUrl" type="id" />
+    <item name="edit_text_to" type="id" />
+    <item name="edit_text_subject" type="id" />
+    <item name="edit_text_message" type="id" />
+    <item name="button_send" type="id" />
+</resources>

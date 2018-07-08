@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meetpatel.loginregister2.PriceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/DatePicker"
+        android:layout_marginTop="16dp"
+        android:text="Start Date: "
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="23dp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="23dp"
+        android:textColor="#FFFF"
+        android:layout_toRightOf="@+id/textView"/>
+
+    <DatePicker
+        android:id="@+id/DatePicker"
+        android:layout_width="326dp"
+        android:layout_height="370dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="64dp"></DatePicker>
+
+    <Button
+        android:id="@+id/btn_savepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/DatePicker"
+        android:layout_below="@+id/DatePicker"
+        android:layout_marginTop="34dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="SAVE DATE" />
+
+    <Button
+        android:id="@+id/btn_nextpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_savepage"
+        android:layout_alignBottom="@+id/btn_savepage"
+        android:layout_alignEnd="@+id/DatePicker"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="NEXT PAGE" />
+
+    <TextView
+        android:id="@id/end_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DatePicker"
+        android:layout_alignStart="@+id/DatePicker"
+        android:text="End Date: "
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="23sp"/>
+
+    <TextView
+        android:id="@+id/textEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:textColor="#FFFF"
+        android:layout_below="@+id/DatePicker"
+        android:layout_toRightOf="@+id/end_date"/>
+
+    <Button
+        android:id="@+id/btn_moveFirebase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_below="@+id/btn_savepage"
+        android:layout_centerHorizontal="true"
+        android:text="Movetofirebase" />
+</RelativeLayout>

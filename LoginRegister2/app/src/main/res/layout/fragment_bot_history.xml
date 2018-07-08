@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meetpatel.loginregister2.BotHistoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Bot History"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="23dp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@id/etTakenN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etResults"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="21dp"
+        android:text="Taken/NotTaken Advice" />
+
+    <EditText
+        android:id="@+id/etAdvice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_below="@+id/etTakenN"
+        android:layout_marginTop="14dp"
+        android:text="Advice" />
+
+    <EditText
+        android:id="@+id/etTimeInterval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/etTimeInterval"
+        android:text="TimeInterval" />
+
+    <Button
+        android:id="@+id/btn_hitmiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignTop="@+id/etResults"
+        android:layout_marginTop="59dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="HIT OR MISS" />
+
+    <EditText
+        android:id="@+id/etResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etAdvice"
+        android:layout_marginTop="14dp"
+        android:text="Results" />
+
+</RelativeLayout>

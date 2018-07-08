@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "879906732752",
+    "firebase_url": "https://smartstocktest.firebaseio.com",
+    "project_id": "smartstocktest",
+    "storage_bucket": "smartstocktest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879906732752:android:d58a926f5542269b",
+        "android_client_info": {
+          "package_name": "com.meetpatel.loginregister2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879906732752-r64gfe8k8160ed15vc8a2gbt8ci01ot1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meetpatel.loginregister2",
+            "certificate_hash": "a299c537ece60b8ffdb3f40eb1e92276c5e2ceb6"
+          }
+        },
+        {
+          "client_id": "879906732752-e69tjbqce30b6u758i745hs2und5ul4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-SR8ueY4l2N590I0HNMpvmCBi0EpMtk0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879906732752-e69tjbqce30b6u758i745hs2und5ul4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

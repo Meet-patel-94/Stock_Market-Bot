@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_price"
+        android:icon="@drawable/ic_trending_up_black_24dp"
+        android:title="@string/nav_price" />
+    <item
+        android:id="@+id/nav_bothistory"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="@string/nav_historys" />
+    <item
+        android:id="@+id/nav_buysell"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/nav_dashboards" />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/nav_settings" />
+</menu>
